@@ -1,0 +1,81 @@
+body {
+        font-family: Arial, sans-serif;
+       
+      }
+.imageClass{
+  height: auto;
+  width: 50%;
+  position: absolute;
+  top: auto;
+  left: 500px;
+}
+  .container {
+   max-width: 500px; 
+    background-color: #ebedf3;
+    border-top:80px;
+    margin-right: auto ;
+  }
+   .logo{
+    flex-basis: 20%;
+   }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .insurance-plan {
+    margin-top: 20px;
+  }
+  
+  .insurance-plan label {
+    display:inline-table;
+    margin-bottom: 10px;
+    
+  }
+  .insurance-plan label:hover {
+    color: #8997bb;
+  .user-details {
+    margin-top: 30px;
+  }
+}
+  
+  .user-details label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .user-details input[type="text"],
+  .user-details input[type="date"],
+  .user-details input[type="number"],
+  .user-details input[type="tel"] {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .user-details label {
+    margin-right: 8px;
+  }
+  
+  
+.calculate-btn {
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #da641b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 8px;
+  }
+  
+    
+ .calculate-btn:hover {
+    background-color: #0056b3;
+  }

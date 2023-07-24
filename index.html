@@ -1,11 +1,67 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investment Calculator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body >
+<div class=" logo">
+    <img src="images/HUTECH INSURANCE (1).png">
+</div>
+<div class="imageClass">
+  <img src="images/Screenshot (95).png">
+</div>
+<div class = "back">
+<div class="container">
+    <h1>Life Investment Plan</h1>
+    <div class="insurance-plan">
+      <p align="center", style="color:blue;">(Choose an Insurance Plan)<i></i></p>
+ 
+      <label> 
+        <input type="radio" name="plan" value="term"checked >
+         Term Insurance
+      </label>
+      <label>
+        <input type="radio" name="plan" value="savings">
+        Savings Plan
+      </label>
+    </div>
+    <div class="user-details">
+      <h2>Investment Calculator</h2>
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname"  placeholder="FullName" required>
+      
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+      
+      <label for="mobile">Mobile No.:</label>
+      <input type="tel" id="mobile" name="mobile" placeholder=" MobileNo." required>
+      
+      <label>Gender:</label>
+      <label>
+        <input type="radio" name="gender" required>  Male
+      </label>
+      <label>
+        <input type="radio" name="gender"> Female
+      </label>
+      <label>
+        <input type="radio" name="gender" > Other
+      </label>
+      
+      <label for="annual-income">Annual Income:</label>
+      <input type="radio" name="annual-income" value="less-than-3"> <3
+      <input type="radio" name="annual-income" value="3-5"> 3-5 
+      <input type="radio" name="annual-income" value="5-7"> 5-7 
+      <input type="radio" name="annual-income" value="7-9"> 7-9
+      <input type="radio" name="annual-income" value="greater-than-15"> >15
+  </div>
+</div>
+<button class="calculate-btn">Calculate Return</button>
+</div>
+</div>
+</header>
 </body>
 </html>

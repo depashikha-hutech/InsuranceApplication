@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.image{
+  width:150px;
+  height:280px;
+  position:absolute;
+  top:-20px;
+  left:570px;
+  border-radius: 10px;
+  padding:25px;
+  float:right;
+}
+3:02
+<div class="image">
+      <img src="images/insur image1.png">
+  </div>
